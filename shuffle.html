@@ -242,7 +242,7 @@ var medicine = ["abdominal", "abdominoplasty", "stomach", "abdominocentesis", "a
   }
 	function disp()
 	{  
-		var d=$("#v").val();
+		var d=$ ("#v").val() +","+" Hello.";
 		var selectedOption = f1.interest.value;
 		
 		if(selectedOption == 'soccer')
@@ -387,6 +387,7 @@ var medicine = ["abdominal", "abdominoplasty", "stomach", "abdominocentesis", "a
 		<input type="text" name="" placeholder="enter you name here first" id="v" class="form-control"><br>
 
 		<button onclick="disp()" class="btn btn-primary">Submit</button>
+		
 	</div>
 		</form>
 	<audio autoplay>
